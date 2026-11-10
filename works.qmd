@@ -11,6 +11,16 @@ toc: false
 \*: equal contribution
 
 ::: {.publication-item}
+### [LEF-JEPA: Denoising-Trained Latent Energy Fields for Spatial Representation Learning](https://arxiv.org/abs/2611.08989)
+
+Zhiyuan Liu\*, **Zhihao Xu\***, Sicheng Liu, Huanhuan Huang
+
+::: {.publication-venue}
+arXiv:2611.08989, 2026
+:::
+:::
+
+::: {.publication-item}
 ### [Phase-VLA: Efficient Long-Horizon Manipulation via Proprioception-Guided Visual Attention](https://rasevents.org/uploads/documents/pdfviewer/9e/29/235190-1589.pdf)
 
 Yancong Wei\*, **Zhihao Xu\***, Sicheng Liu, Kangkang Dong, Houde Liu
@@ -27,17 +37,5 @@ Yibiao Rong\*, **Zhihao Xu\***
 
 ::: {.publication-venue}
 *Biomedical Signal Processing and Control*, Volume 120, Part A, Article 110013, 2026
-:::
-:::
-
-## Preprints & Submissions
-
-::: {.publication-item}
-### [LEF-JEPA: Denoising-Trained Latent Energy Fields for Spatial Representation Learning](https://arxiv.org/abs/2611.08989)
-
-Zhiyuan Liu\*, **Zhihao Xu\***, Sicheng Liu, Huanhuan Huang
-
-::: {.publication-venue}
-arXiv:2611.08989, 2026
 :::
 :::
