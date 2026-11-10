@@ -24,14 +24,12 @@ website:
     pinned: true
     title: "Zhihao Xu"
     left:
-      - text: Home
-        href: index.qmd
+      - text: About
+        href: about.qmd
       - text: Blog
         href: blog.qmd
       - text: Works
         href: works.qmd
-      - text: About
-        href: about.qmd
     right:
       - icon: github
         href: https://github.com/xuzhihaoup

@@ -1,10 +1,9 @@
 ---
 title: "Works"
-description: "论文、预印本与其他公开研究成果。"
+description: "公开研究成果。"
 toc: false
 ---
 
-这里收录已经公开、信息完整且值得长期维护的研究成果。我的名字以粗体标出。
 
 ## Publications
 

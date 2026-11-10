@@ -6,4 +6,4 @@ search: false
 
 你访问的页面可能已移动或尚未发布。
 
-[返回首页](index.qmd){.btn .btn-primary}
+[返回主页](about.qmd){.btn .btn-primary}

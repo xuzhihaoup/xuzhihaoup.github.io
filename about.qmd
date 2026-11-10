@@ -1,12 +1,13 @@
 ---
 title: "About"
 description: "关于 Zhihao Xu。"
+output-file: index.html
 toc: false
 ---
 
 ## Research interests
 
-我关心一个宽泛但具体的问题：如何让具身智能体从数据中学到可预测、可解释、可控制的行为。
+一起做有意思、有挑战、有价值的工作
 
 当前兴趣包括：
 
@@ -15,11 +16,14 @@ toc: false
 - 模型可解释性与因果干预
 - Reinforcement learning 与 motion control
 - 支撑实验效率的 AI systems
+- Quantum for AI
 
 ## Contact
 
 - GitHub: [@xuzhihaoup](https://github.com/xuzhihaoup)
+- Bilibili: [space.bilibili.com/442360831](https://space.bilibili.com/442360831)
+- Email: [24zhxu@stu.edu.cn](mailto:24zhxu@stu.edu.cn)
 
 ## 关于本站
 
-本站使用 Quarto 生成静态页面，并由 GitHub Pages 托管。正文以 Markdown/QMD 保存，因此内容不依赖数据库，也便于长期迁移和版本管理。
+此站用于记录个人研究
