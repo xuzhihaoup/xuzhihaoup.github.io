@@ -196,22 +196,6 @@ main.content {
   margin: 0;
 }
 
-.publication-link {
-  border: 1px solid #cfd8e8;
-  border-radius: 999px;
-  display: inline-block;
-  font-size: 0.82rem;
-  font-weight: 650;
-  margin: 0.25rem 0.3rem 0 0;
-  padding: 0.2rem 0.65rem;
-  text-decoration: none;
-}
-
-.publication-link:hover {
-  background: var(--accent-soft);
-  border-color: #9db9f1;
-}
-
 .quarto-listing-default .listing-item {
   border-bottom: 1px solid var(--line);
   padding: 1.25rem 0;

@@ -8,31 +8,26 @@ toc: false
 
 ## Publications
 
-::: {.publication-item}
-### Phase-VLA: Efficient Long-Horizon Manipulation via Proprioception-Guided Visual Attention
+\*: equal contribution
 
-Yancong Wei, **Zhihao Xu**, Sicheng Liu, Kangkang Dong, Houde Liu
+::: {.publication-item}
+### [Phase-VLA: Efficient Long-Horizon Manipulation via Proprioception-Guided Visual Attention](https://rasevents.org/uploads/documents/pdfviewer/9e/29/235190-1589.pdf)
+
+Yancong Wei\*, **Zhihao Xu\***, Sicheng Liu, Kangkang Dong, Houde Liu
 
 ::: {.publication-venue}
 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS 2026**)
 :::
-
-面向长时程机器人操作，研究由本体感觉引导的视觉注意机制。
 :::
 
 ::: {.publication-item}
 ### [Using genetic algorithm to search for the optimal skip connections in convolutional neural networks with encoder-decoder architectures](https://doi.org/10.1016/j.bspc.2026.110013)
 
-Yibiao Rong, **Zhihao Xu**
+Yibiao Rong\*, **Zhihao Xu\***
 
 ::: {.publication-venue}
 *Biomedical Signal Processing and Control*, Volume 120, Part A, Article 110013, 2026
 :::
-
-使用遗传算法联合搜索 encoder-decoder 网络的跳跃连接拓扑与通道配置。
-
-[Publisher](https://www.sciencedirect.com/science/article/pii/S1746809426005677){.publication-link}
-[DOI](https://doi.org/10.1016/j.bspc.2026.110013){.publication-link}
 :::
 
 ## Preprints & Submissions
@@ -40,13 +35,9 @@ Yibiao Rong, **Zhihao Xu**
 ::: {.publication-item}
 ### [LEF-JEPA: Denoising-Trained Latent Energy Fields for Spatial Representation Learning](https://arxiv.org/abs/2611.08989)
 
-Zhiyuan Liu, **Zhihao Xu**, Sicheng Liu, Huanhuan Huang
+Zhiyuan Liu\*, **Zhihao Xu\***, Sicheng Liu, Huanhuan Huang
 
 ::: {.publication-venue}
-arXiv:2611.08989, 2026 · CVPR 2027 Conference Submission
+arXiv:2611.08989, 2026
 :::
-
-通过目标引导的潜表示恢复与相对能量约束，增强 JEPA 表征中的空间结构；能量模块仅在预训练阶段使用。
-
-[arXiv](https://arxiv.org/abs/2611.08989){.publication-link}
 :::
