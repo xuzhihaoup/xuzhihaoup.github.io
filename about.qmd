@@ -1,0 +1,25 @@
+---
+title: "About"
+description: "关于 Zhihao Xu。"
+toc: false
+---
+
+## Research interests
+
+我关心一个宽泛但具体的问题：如何让具身智能体从数据中学到可预测、可解释、可控制的行为。
+
+当前兴趣包括：
+
+- Embodied AI 与机器人学习
+- World models 与表征学习
+- 模型可解释性与因果干预
+- Reinforcement learning 与 motion control
+- 支撑实验效率的 AI systems
+
+## Contact
+
+- GitHub: [@xuzhihaoup](https://github.com/xuzhihaoup)
+
+## 关于本站
+
+本站使用 Quarto 生成静态页面，并由 GitHub Pages 托管。正文以 Markdown/QMD 保存，因此内容不依赖数据库，也便于长期迁移和版本管理。

@@ -1,0 +1,12 @@
+/.quarto/
+/_site/
+/.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+.venv/
+
+# Quarto 的 _freeze/ 需要提交，供 GitHub Actions 复用实验输出。
+
+
+**/*.quarto_ipynb

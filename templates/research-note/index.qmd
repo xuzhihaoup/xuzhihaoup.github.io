@@ -1,0 +1,51 @@
+---
+title: "文章标题"
+description: "用一句话说明问题和最重要的观察。"
+date: 2026-11-10
+author: "Zhihao Xu"
+categories: [Research Note]
+draft: true
+toc: true
+execute:
+  freeze: auto
+---
+
+## 一句话结论
+
+先写最值得读者记住的结果。
+
+## 为什么问这个问题
+
+这个问题从哪里来？它为什么反直觉或值得验证？
+
+## 实验设置
+
+记录数据、任务、模型、指标、对照组与随机种子。
+
+## 关键观察
+
+把图片或视频放在这个 `index.qmd` 旁边，然后用相对路径引用：
+
+```markdown
+![描述图中真正可见的结果](result.png){fig-alt="图像的无障碍描述"}
+```
+
+## 解释与假设
+
+哪些是实验直接支持的事实？哪些仍然只是解释？
+
+## 适用边界
+
+说明当前结论在哪些设置中成立，不把未验证范围写成结论。
+
+## 如何复现
+
+- Code:
+- Config:
+- Data:
+- Environment:
+- Commit:
+
+## Takeaway
+
+用两三句话收束文章。

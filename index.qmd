@@ -1,0 +1,60 @@
+---
+page-layout: full
+toc: false
+listing:
+  - id: recent-notes
+    contents: posts
+    sort: "date desc"
+    type: default
+    max-items: 3
+    fields: [date, title, description, categories]
+---
+
+::: {.hero}
+::: {.hero-kicker}
+EMBODIED INTELLIGENCE · WORLD MODELS · INTERPRETABLE LEARNING
+:::
+
+# Zhihao Xu
+
+## I study how embodied agents learn, predict, and act.
+
+我关注具身智能、世界模型、模型可解释性与强化学习，也对运动控制和 AI systems 感兴趣。我喜欢从一个具体、反常的问题出发，用尽可能小且可复现的实验把它讲清楚。
+
+::: {.hero-actions}
+[阅读研究笔记](blog.qmd){.btn .btn-primary}
+[查看作品](works.qmd){.btn .btn-outline-primary}
+[GitHub](https://github.com/xuzhihaoup){.btn .btn-link}
+:::
+:::
+
+::: {.home-grid}
+::: {.home-panel}
+### 我关心的问题
+
+- 智能体能否从数据中学习可预测、可解释、可控制的行为？
+- 世界模型何时真正帮助决策，何时只是在生成合理的想象？
+- 训练指标很好但控制仍然失败时，问题究竟在哪里？
+:::
+
+::: {.home-panel}
+### 这个网站记录什么
+
+这里不自动同步仓库，也不堆积零散实验日志。每篇文章尽量包含问题、设置、对照、证据、解释边界与复现信息；Works 页面只保留已经公开且值得长期维护的内容。
+:::
+:::
+
+## Recent Notes
+
+完整实验、问题拆解，以及那些值得继续追下去的异常结果。
+
+::: {#recent-notes}
+:::
+
+::: {.section-cta}
+### 从一个问题开始
+
+第一篇说明了这个博客会如何组织研究笔记；后续文章将把真实实验的图表、代码和复现信息放在同一个目录中。
+
+[了解写作方式 →](posts/about-this-blog/)
+:::

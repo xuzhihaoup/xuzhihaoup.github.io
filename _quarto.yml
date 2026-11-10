@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+    - robots.txt
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "!templates/**"
+
+lang: zh
+
+website:
+  title: "Zhihao Xu"
+  site-url: "https://xuzhihaoup.github.io"
+  description: "Zhihao Xu 的实验、研究笔记与公开作品。"
+  favicon: assets/favicon.svg
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    title: "Zhihao Xu"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Works
+        href: works.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/xuzhihaoup
+        aria-label: GitHub
+      - icon: rss
+        href: blog.xml
+        aria-label: RSS
+  page-footer:
+    left: "© 2026 Zhihao Xu"
+    right: "Built with [Quarto](https://quarto.org/) · [Source](https://github.com/xuzhihaoup/xuzhihaoup.github.io)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    anchor-sections: true
+    html-math-method: katex
+
+execute:
+  freeze: auto

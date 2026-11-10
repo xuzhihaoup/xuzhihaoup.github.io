@@ -1,0 +1,28 @@
+---
+title: "Works"
+description: "论文、软件与其他公开作品。"
+toc: false
+---
+
+::: {.empty-state}
+## 正在整理
+
+这里只收录已经公开、信息完整且值得长期维护的论文与作品。尚未整理的 GitHub 仓库不会被自动展示。
+
+在此之前，可以先阅读 [Lab Notes](blog.qmd)。
+:::
+
+<!--
+新增作品时复制下面的结构：
+
+## Publications
+
+### 作品标题
+
+作者 / 个人角色
+Venue + 年份，或明确写 Preprint / Project
+
+一句话说明真正完成了什么。
+
+[Paper](#) · [Code](#) · [Project page](#) · [Blog](#)
+-->

@@ -1,0 +1,240 @@
+/*-- scss:defaults --*/
+
+$body-bg: #fbfaf7;
+$body-color: #1c2430;
+$primary: #255fd6;
+$secondary: #667085;
+$link-color: #255fd6;
+$link-hover-color: #173f99;
+$border-color: #e6e3dc;
+$font-family-sans-serif: Inter, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-weight: 650;
+$line-height-base: 1.75;
+$font-size-base: 1.0625rem;
+$navbar-bg: rgba(251, 250, 247, 0.94);
+$navbar-fg: #1c2430;
+$navbar-hl: #255fd6;
+
+/*-- scss:rules --*/
+
+:root {
+  --page-bg: #fbfaf7;
+  --ink: #1c2430;
+  --muted: #667085;
+  --accent: #255fd6;
+  --accent-soft: #eef4ff;
+  --line: #e6e3dc;
+  --paper: #ffffff;
+}
+
+body {
+  letter-spacing: 0.005em;
+}
+
+a {
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.08em;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.navbar-brand {
+  font-weight: 720;
+  letter-spacing: -0.02em;
+}
+
+.nav-link {
+  font-size: 0.94rem;
+  font-weight: 560;
+}
+
+#quarto-content {
+  min-height: calc(100vh - 170px);
+}
+
+main.content {
+  max-width: 780px;
+}
+
+.page-layout-full main.content {
+  max-width: 1040px;
+}
+
+.hero {
+  padding: clamp(4.5rem, 10vw, 8rem) 0 clamp(3.5rem, 8vw, 6rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-kicker {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 760;
+  letter-spacing: 0.14em;
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-size: clamp(3.2rem, 9vw, 6.2rem);
+  line-height: 0.98;
+  letter-spacing: -0.065em;
+  margin: 0 0 1.25rem;
+}
+
+.hero h2 {
+  border: 0;
+  color: var(--ink);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 520;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.35rem;
+  padding: 0;
+}
+
+.hero p {
+  color: #3d4755;
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  max-width: 780px;
+}
+
+.hero-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.8rem;
+}
+
+.btn {
+  border-radius: 999px;
+  font-weight: 620;
+  padding: 0.62rem 1.1rem;
+}
+
+.btn-primary {
+  box-shadow: 0 8px 20px rgba(37, 95, 214, 0.18);
+}
+
+.home-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 3.5rem 0 5rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--line);
+}
+
+.home-panel {
+  background: var(--paper);
+  padding: clamp(1.5rem, 4vw, 2.25rem);
+}
+
+.home-panel h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.home-panel p,
+.home-panel li {
+  color: #4b5563;
+}
+
+.section-cta,
+.empty-state {
+  background: var(--accent-soft);
+  border: 1px solid #d8e5ff;
+  border-radius: 18px;
+  margin: 3rem 0;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.section-cta h3,
+.empty-state h2 {
+  margin-top: 0;
+}
+
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid var(--line);
+  padding: 1.25rem 0;
+}
+
+.quarto-listing-default .listing-title {
+  font-size: 1.16rem;
+  font-weight: 680;
+  letter-spacing: -0.015em;
+}
+
+.quarto-listing-default .listing-description,
+.quarto-listing-default .listing-date,
+.quarto-listing-default .listing-reading-time {
+  color: var(--muted);
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: transparent;
+  color: var(--ink);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quarto-title h1.title {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  letter-spacing: -0.05em;
+}
+
+blockquote {
+  border-left: 3px solid var(--accent);
+  color: #46515f;
+}
+
+pre {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.callout {
+  border-radius: 14px;
+}
+
+.nav-footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding-top: 3.5rem;
+  }
+
+  .hero-kicker {
+    line-height: 1.5;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions .btn {
+    text-align: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

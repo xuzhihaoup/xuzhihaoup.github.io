@@ -1,0 +1,17 @@
+---
+title: "Lab Notes"
+description: "完整实验、趣味研究与研究笔记。"
+page-layout: full
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories, reading-time]
+  feed:
+    type: partial
+    items: 20
+---
+
+这里记录可以独立阅读的小型研究：问题从哪里来，实验如何设计，观察到了什么，以及结果改变了什么判断。每篇尽量给出必要的设置、对照、图表与复现信息。
