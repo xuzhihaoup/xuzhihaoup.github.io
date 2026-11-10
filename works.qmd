@@ -1,28 +1,52 @@
 ---
 title: "Works"
-description: "论文、软件与其他公开作品。"
+description: "论文、预印本与其他公开研究成果。"
 toc: false
 ---
 
-::: {.empty-state}
-## 正在整理
-
-这里只收录已经公开、信息完整且值得长期维护的论文与作品。尚未整理的 GitHub 仓库不会被自动展示。
-
-在此之前，可以先阅读 [Lab Notes](blog.qmd)。
-:::
-
-<!--
-新增作品时复制下面的结构：
+这里收录已经公开、信息完整且值得长期维护的研究成果。我的名字以粗体标出。
 
 ## Publications
 
-### 作品标题
+::: {.publication-item}
+### Phase-VLA: Efficient Long-Horizon Manipulation via Proprioception-Guided Visual Attention
 
-作者 / 个人角色
-Venue + 年份，或明确写 Preprint / Project
+Yancong Wei, **Zhihao Xu**, Sicheng Liu, Kangkang Dong, Houde Liu
 
-一句话说明真正完成了什么。
+::: {.publication-venue}
+IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS 2026**)
+:::
 
-[Paper](#) · [Code](#) · [Project page](#) · [Blog](#)
--->
+面向长时程机器人操作，研究由本体感觉引导的视觉注意机制。
+:::
+
+::: {.publication-item}
+### [Using genetic algorithm to search for the optimal skip connections in convolutional neural networks with encoder-decoder architectures](https://doi.org/10.1016/j.bspc.2026.110013)
+
+Yibiao Rong, **Zhihao Xu**
+
+::: {.publication-venue}
+*Biomedical Signal Processing and Control*, Volume 120, Part A, Article 110013, 2026
+:::
+
+使用遗传算法联合搜索 encoder-decoder 网络的跳跃连接拓扑与通道配置。
+
+[Publisher](https://www.sciencedirect.com/science/article/pii/S1746809426005677){.publication-link}
+[DOI](https://doi.org/10.1016/j.bspc.2026.110013){.publication-link}
+:::
+
+## Preprints & Submissions
+
+::: {.publication-item}
+### [LEF-JEPA: Denoising-Trained Latent Energy Fields for Spatial Representation Learning](https://arxiv.org/abs/2611.08989)
+
+Zhiyuan Liu, **Zhihao Xu**, Sicheng Liu, Huanhuan Huang
+
+::: {.publication-venue}
+arXiv:2611.08989, 2026 · CVPR 2027 Conference Submission
+:::
+
+通过目标引导的潜表示恢复与相对能量约束，增强 JEPA 表征中的空间结构；能量模块仅在预训练阶段使用。
+
+[arXiv](https://arxiv.org/abs/2611.08989){.publication-link}
+:::

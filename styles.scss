@@ -158,6 +158,60 @@ main.content {
   margin-top: 0;
 }
 
+.publication-item {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0 1.7rem;
+}
+
+.publication-item:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-item h3 {
+  font-size: clamp(1.08rem, 2vw, 1.28rem);
+  line-height: 1.45;
+  margin: 0 0 0.65rem;
+}
+
+.publication-item h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.publication-item h3 a:hover {
+  color: var(--accent);
+}
+
+.publication-item p {
+  margin-bottom: 0.65rem;
+}
+
+.publication-venue {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin-bottom: 0.75rem;
+}
+
+.publication-venue p {
+  margin: 0;
+}
+
+.publication-link {
+  border: 1px solid #cfd8e8;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 650;
+  margin: 0.25rem 0.3rem 0 0;
+  padding: 0.2rem 0.65rem;
+  text-decoration: none;
+}
+
+.publication-link:hover {
+  background: var(--accent-soft);
+  border-color: #9db9f1;
+}
+
 .quarto-listing-default .listing-item {
   border-bottom: 1px solid var(--line);
   padding: 1.25rem 0;
