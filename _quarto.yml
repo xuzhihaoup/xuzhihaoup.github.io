@@ -48,6 +48,7 @@ format:
       - cosmo
       - styles.scss
     toc: true
+    toc-title: "目录"
     toc-depth: 3
     smooth-scroll: true
     code-copy: true

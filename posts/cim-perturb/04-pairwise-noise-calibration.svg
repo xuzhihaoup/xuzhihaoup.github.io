@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460.0" y="29" text-anchor="middle" font-size="19" font-family="sans-serif">Experiment 22: pairwise-factor noise calibration</text>
+<g font-family="sans-serif" fill="#222">
+<line x1="75" y1="55" x2="75" y2="405" stroke="#333"/>
+<line x1="75" y1="405" x2="895" y2="405" stroke="#333"/>
+<text transform="translate(18 230.0) rotate(-90)" text-anchor="middle" font-size="13">total variation (lower is better)</text>
+<line x1="75" y1="405.0" x2="895" y2="405.0" stroke="#ddd"/>
+<text x="67" y="409.0" text-anchor="end" font-size="11">-0.0186</text>
+<line x1="75" y1="335.0" x2="895" y2="335.0" stroke="#ddd"/>
+<text x="67" y="339.0" text-anchor="end" font-size="11">0.0353</text>
+<line x1="75" y1="265.0" x2="895" y2="265.0" stroke="#ddd"/>
+<text x="67" y="269.0" text-anchor="end" font-size="11">0.0892</text>
+<line x1="75" y1="195.0" x2="895" y2="195.0" stroke="#ddd"/>
+<text x="67" y="199.0" text-anchor="end" font-size="11">0.143</text>
+<line x1="75" y1="125.0" x2="895" y2="125.0" stroke="#ddd"/>
+<text x="67" y="129.0" text-anchor="end" font-size="11">0.197</text>
+<line x1="75" y1="55.0" x2="895" y2="55.0" stroke="#ddd"/>
+<text x="67" y="59.0" text-anchor="end" font-size="11">0.251</text>
+<polyline points="75.0,297.0 211.7,297.0 348.3,297.0 485.0,297.0 621.7,297.0 758.3,297.0 895.0,297.0" fill="none" stroke="#6a4c93" stroke-width="2.5"/>
+<circle cx="75.0" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="211.7" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="348.3" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="485.0" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="621.7" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="758.3" cy="297.0" r="3" fill="#6a4c93"/>
+<circle cx="895.0" cy="297.0" r="3" fill="#6a4c93"/>
+<polyline points="75.0,184.1 211.7,237.9 348.3,253.1 485.0,247.3 621.7,225.0 758.3,206.7 895.0,186.6" fill="none" stroke="#118ab2" stroke-width="2.5"/>
+<circle cx="75.0" cy="184.1" r="3" fill="#118ab2"/>
+<circle cx="211.7" cy="237.9" r="3" fill="#118ab2"/>
+<circle cx="348.3" cy="253.1" r="3" fill="#118ab2"/>
+<circle cx="485.0" cy="247.3" r="3" fill="#118ab2"/>
+<circle cx="621.7" cy="225.0" r="3" fill="#118ab2"/>
+<circle cx="758.3" cy="206.7" r="3" fill="#118ab2"/>
+<circle cx="895.0" cy="186.6" r="3" fill="#118ab2"/>
+<polyline points="75.0,182.8 211.7,240.0 348.3,247.9 485.0,251.0 621.7,222.4 758.3,203.8 895.0,182.9" fill="none" stroke="#73c2be" stroke-width="2.5"/>
+<circle cx="75.0" cy="182.8" r="3" fill="#73c2be"/>
+<circle cx="211.7" cy="240.0" r="3" fill="#73c2be"/>
+<circle cx="348.3" cy="247.9" r="3" fill="#73c2be"/>
+<circle cx="485.0" cy="251.0" r="3" fill="#73c2be"/>
+<circle cx="621.7" cy="222.4" r="3" fill="#73c2be"/>
+<circle cx="758.3" cy="203.8" r="3" fill="#73c2be"/>
+<circle cx="895.0" cy="182.9" r="3" fill="#73c2be"/>
+<polyline points="75.0,79.1 211.7,151.3 348.3,219.7 485.0,225.5 621.7,252.3 758.3,233.1 895.0,216.4" fill="none" stroke="#ef476f" stroke-width="2.5"/>
+<circle cx="75.0" cy="79.1" r="3" fill="#ef476f"/>
+<circle cx="211.7" cy="151.3" r="3" fill="#ef476f"/>
+<circle cx="348.3" cy="219.7" r="3" fill="#ef476f"/>
+<circle cx="485.0" cy="225.5" r="3" fill="#ef476f"/>
+<circle cx="621.7" cy="252.3" r="3" fill="#ef476f"/>
+<circle cx="758.3" cy="233.1" r="3" fill="#ef476f"/>
+<circle cx="895.0" cy="216.4" r="3" fill="#ef476f"/>
+<text x="485.0" y="455" text-anchor="middle" font-size="13">pairwise factor scale before sqrt(degree) normalization</text>
+<line x1="85" y1="431" x2="103" y2="431" stroke="#6a4c93" stroke-width="3"/>
+<text x="108" y="435" font-size="12">full-state Gumbel reference</text>
+<line x1="332" y1="431" x2="350" y2="431" stroke="#118ab2" stroke-width="3"/>
+<text x="355" y="435" font-size="12">pairwise_exact</text>
+<line x1="475" y1="431" x2="493" y2="431" stroke="#73c2be" stroke-width="3"/>
+<text x="498" y="435" font-size="12">pairwise_quantized</text>
+<line x1="650" y1="431" x2="668" y2="431" stroke="#ef476f" stroke-width="3"/>
+<text x="673" y="435" font-size="12">pairwise_cim</text>
+</g></svg>

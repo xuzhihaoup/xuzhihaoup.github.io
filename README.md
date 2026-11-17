@@ -38,7 +38,14 @@ cp -r templates/research-note posts/my-new-note
 ```bash
 quarto render posts/my-new-note/index.qmd
 ```
+预览后推送发布
 
+```bash
+git status
+git add -A
+git commit -m "更新博客"
+git push origin main
+```
 这会更新 `_freeze/`，应将它和文章一起提交。
 
 ## 更新作品

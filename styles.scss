@@ -64,6 +64,31 @@ main.content {
   max-width: 1040px;
 }
 
+/* Use the desktop canvas for long-form posts: wide article on the left,
+   independent table of contents on the right. */
+@media (min-width: 1200px) {
+  #quarto-content.page-layout-article:has(#TOC) {
+    grid-template-columns:
+      [screen-start] clamp(1.5rem, 2.2vw, 3rem)
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end] clamp(1.5rem, 2.2vw, 2.5rem)
+      [body-end-outset page-end-inset] minmax(18rem, 20vw)
+      [page-end screen-end-inset] clamp(1.5rem, 2.2vw, 3rem)
+      [screen-end];
+  }
+
+  #quarto-content.page-layout-article:has(#TOC) main.content {
+    max-width: none;
+    width: 100%;
+  }
+
+  #quarto-content.page-layout-article:has(#TOC) .sidebar.margin-sidebar {
+    border-left: 1px solid var(--line);
+    grid-column: body-end-outset / page-end;
+    padding-left: 1.25rem;
+  }
+}
+
 .hero {
   padding: clamp(4.5rem, 10vw, 8rem) 0 clamp(3.5rem, 8vw, 6rem);
   border-bottom: 1px solid var(--line);
@@ -237,6 +262,14 @@ pre {
 
 .callout {
   border-radius: 14px;
+}
+
+main.content .quarto-figure figcaption {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  width: 100%;
 }
 
 .nav-footer {
